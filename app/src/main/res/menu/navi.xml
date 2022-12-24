@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ct1"
+            android:title="전체센터조회" />
+        <item
+            android:id="@+id/ct2"
+            android:title="지역별센터조회" />
+        <item
+            android:id="@+id/ct3"
+            android:title="위치공유" />
+        <item
+            android:id="@+id/ct4"
+            android:title="정보" />
+        <item
+            android:id="@+id/ct5"
+            android:title="공지사항" />
+    </group>
+</menu>

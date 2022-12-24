@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer2"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white">
+
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff0000"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:paddingTop="260dp"
+        android:text="전체센터조회"
+        android:textColor="#323333"
+        android:textSize="18sp"
+        android:theme="@style/Pink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#00ff0000"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="지역별센터조회"
+        android:textColor="#323333"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but1" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:background="#00ff0000"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="어플공유"
+        android:textColor="#323333"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but2" />
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:background="#00ff0000"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="정보"
+        android:textColor="#323333"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but3" />
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:background="#00ff0000"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="공지사항"
+        android:textColor="#323333"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but4" />
+
+    <include layout="@layout/appbar_header" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

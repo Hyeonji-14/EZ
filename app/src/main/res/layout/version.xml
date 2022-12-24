@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/round"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center"
+        android:text="정보"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="개발자"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="서홍석, 기윤미, 김기담, 김현지, 압두팟터흐"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="버전"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="1.0"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:text="개발자 연락망"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/mainfont"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="10dp"
+        android:text="hyeonji14kim@gmail.com\ntjghdtjr6@gmail.com"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
