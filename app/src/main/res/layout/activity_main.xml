@@ -48,7 +48,7 @@
         <LinearLayout
             android:id="@+id/map_layout"
             android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_height="250dp"
             android:layout_gravity="bottom"
             android:background="@drawable/round3"
             android:orientation="vertical"
@@ -91,28 +91,28 @@
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="15dp"
+                        android:layout_marginTop="13dp"
                         android:src="@drawable/house" />
 
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="50dp"
+                        android:layout_marginTop="46dp"
                         android:src="@drawable/tel" />
 
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="85dp"
+                        android:layout_marginTop="80dp"
                         android:src="@drawable/yetel" />
 
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="120dp"
+                        android:layout_marginTop="113dp"
                         android:src="@drawable/weekday" />
 
                     <TextView
@@ -125,7 +125,7 @@
                         android:fontFamily="@font/mainfont"
                         android:lineSpacingExtra="20dp"
                         android:textColor="#000000"
-                        android:textSize="18sp" />
+                        android:textSize="15sp" />
 
                 </FrameLayout>
 
