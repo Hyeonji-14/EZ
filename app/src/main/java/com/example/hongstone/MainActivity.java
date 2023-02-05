@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
         implements OnMapReadyCallback, ActivityCompat.OnRequestPermissionsResultCallback, GoogleMap.OnMarkerClickListener {
 
     private static final int GPS_ENABLE_REQUEST_CODE = 2001;
-    private static final int UPDATE_INTERVAL_MS = 1000;  // 1초
+    private static final int UPDATE_INTERVAL_MS = 99999999;
     private static final int FASTEST_UPDATE_INTERVAL_MS = 50000000; // 0.5초
     private static final String TAG = "googlemap_example";
     private static final int PERMISSIONS_REQUEST_CODE = 100;
