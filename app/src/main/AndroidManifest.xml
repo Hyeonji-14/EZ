@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.hongstone">
+    package="com.ezapp.hongstone">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
         android:allowBackup="true"
@@ -16,25 +17,26 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
 
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBgx1T8BwzoKWPfGGxiS1_npEvqU9Hjw1s"/>
 
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Bt1Activity" />
-        <activity android:name=".Bt2Activity" />
-        <activity android:name=".Bt3Activity" />
-        <activity android:name=".Bt4Activity" />
-        <activity android:name=".Bt5Activity" />
-        <activity android:name=".Bt6Activity" />
-        <activity android:name=".Bt7Activity" />
-        <activity android:name=".VersionActivity" />
-        <activity android:name=".OneActivity" />
-        <activity android:name=".TwoActivity" />
-        <activity android:name=".GongJi" />
-        <activity android:name=".Gong1" />
+        <activity android:name="com.ezapp.hongstone.MainActivity" />
+        <activity android:name="com.ezapp.hongstone.Bt1Activity" />
+        <activity android:name="com.ezapp.hongstone.Bt2Activity" />
+        <activity android:name="com.ezapp.hongstone.Bt3Activity" />
+        <activity android:name="com.ezapp.hongstone.Bt4Activity" />
+        <activity android:name="com.ezapp.hongstone.Bt5Activity" />
+        <activity android:name="com.ezapp.hongstone.Bt6Activity" />
+        <activity android:name="com.ezapp.hongstone.Bt7Activity" />
+        <activity android:name="com.ezapp.hongstone.VersionActivity" />
+        <activity android:name="com.ezapp.hongstone.OneActivity" />
+        <activity android:name="com.ezapp.hongstone.TwoActivity" />
+        <activity android:name="com.ezapp.hongstone.GongJi" />
+        <activity android:name="com.ezapp.hongstone.Gong1" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.ezapp.hongstone.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

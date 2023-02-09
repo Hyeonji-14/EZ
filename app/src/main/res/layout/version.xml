@@ -37,7 +37,7 @@
         android:fontFamily="@font/mainfont"
         android:gravity="center_vertical"
         android:text="서홍석, 기윤미, 김기담, 김현지, 압두팟터흐"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
     <TextView
@@ -58,7 +58,7 @@
         android:fontFamily="@font/mainfont"
         android:gravity="center_vertical"
         android:text="1.0"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
     <TextView
