@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity
                 intent.setType("text/plain");
 
                 intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.ezapp.hongstone");
-                String sendMessage = "전국의 이동지원센터의 정보를 받아보세요! \nhttps://play.google.com/store/apps/details?id=com.ezapp.hongstone";
+                String sendMessage = "전국의 이동지원센터의 정보를 받아보세요!\nhttps://play.google.com/store/apps/details?id=com.ezapp.hongstone";
                 intent.putExtra(Intent.EXTRA_TEXT, sendMessage);
                 Intent shareIntent = Intent.createChooser(intent,"share");
                 startActivity(shareIntent);
