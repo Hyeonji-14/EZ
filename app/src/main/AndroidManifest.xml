@@ -20,7 +20,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCb7pABQWtoHbqrdR8vgvHfoLopvWug2HE"/>
+            android:value="-"/>
 
         <activity android:name="com.ezapp.hongstone.MainActivity" />
         <activity android:name="com.ezapp.hongstone.Bt1Activity" />
